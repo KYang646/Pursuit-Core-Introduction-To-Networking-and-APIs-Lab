@@ -61,7 +61,8 @@ API Scavenger Hunt!
 For each of the questions below, identify a website and search query that will give you the appropriate JSON.  Paste the url and the json below.  Googling the category + API will generally take you to where you need.  Ex. https://lmgtfy.com/?q=cat+fact+api
 
 1. A random cat fact
-```// https://catfact.ninja
+https://catfact.ninja
+```
 
 {
 "total": 98,
@@ -84,7 +85,8 @@ For each of the questions below, identify a website and search query that will g
 }
 ```
 1. A list of 150 random users in English.
-```// https://randomuser.me
+https://randomuser.me
+```
 
 <!DOCTYPE html><html lang="en"><head><title>Random User Generator | Home</title><meta charset='utf-8'><meta name="description" content="Random user generator is a FREE API for generating placeholder user information. Get profile photos, names, and more. It's like Lorem Ipsum, for people."><meta name="apple-mobile-web-app-capable" content="yes"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><link rel="stylesheet" type="text/css" href="dist/style.css"><script src="dist/all.js"></script></head><body class=""><div id="navbar" class=""><div class="nav_toggle"><div class="icon"><div></div><div></div><div></div></div></div><ul><li><a href="index">Home</a></li><li><a href="photos">User Photos</a></li><li><a href="documentation">Documentation</a></li><li><a href="changelog">Change Log</a></li><li><a href="stats">Stats &amp; Graphs</a></li><li><a href="donate">Donate</a></li><li><a href="copyright">Copyright Notice</a></li><li class="blank"></li><li><a href="photoshop">Photoshop Extension</a></li></ul></div><header><h1>Random User Generator</h1><p>A free, <a id="openSource" href="https://github.com/RandomAPI/Randomuser.me-Node">open-source</a> API for generating random user data. Like Lorem Ipsum, but for people. </p><a href="https://twitter.com/randomapi" class="twitter"><img src="img/twitter.png">Follow us @randomapi</a></header><div class="frame card_offset"><div class="card"><div class="details"><div class="user_photo horizontal_center" id="user_photo"><a href="javascript:getNewUser();" class="refresh">New</a><img src=""></div><p id="user_title">Hi, My name is</p><p id="user_value">...</p></div><ul class="values_list horizontal_center" id="values_list"><li data-title="Hi, My name is" data-value="..." data-label="name" class="active"></li><li data-title="My email address is" data-value="..." data-label="email" data-caps="false"></li><li data-title="My birthday is" data-value="..." data-label="birthday"></li><li data-title="My address is" data-value="..." data-label="location"></li><li data-title="My phone number is" data-value="..." data-label="phone"></li><li data-title="My password is" data-value="..." data-label="pass" data-caps="false"></li></ul></div><section class="sponsor"><h2>Sponsored</h2><h3>RandomAPI</h3><p>Want to create your own <b>customized</b> data generator for your application?<br>Check out our other service RandomAPI!</p><button id="learnmore" class="button" onClick="window.open('https://randomapi.com');">Learn More</button></section><section class="advertisement"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:inline-block;width:230px;height:200px" data-ad-client="ca-pub-2036801804961954" data-ad-slot="7646598623"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script><ins class="adsbygoogle" style="display:inline-block;width:230px;height:200px;margin:0 16px;" data-ad-client="ca-pub-2036801804961954" data-ad-slot="7646598623"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script><ins class="adsbygoogle" style="display:inline-block;width:230px;height:200px" data-ad-client="ca-pub-2036801804961954" data-ad-slot="7646598623"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></section><section><h2>How to use</h2><p>You can use AJAX to call the Random User Generator API and will receive a randomly generated user in return. If you are using jQuery, you can use the $.ajax() function in the code snippet below to get started.</p><pre>$.ajax({
 url: '<span>https: //randomuser.me/api/</span>',
@@ -168,7 +170,8 @@ console.log(<span>data</span>);
 })(window,document,'script',' //www.google-analytics.com/analytics.js','ga');ga('create', 'UA-42942064-1', 'randomuser.me');ga('send', 'pageview');</script></body></html>"
 ```
 1. The current stock price of Microsoft. (IEX API)
-```// https://iextrading.com/?gclid=EAIaIQobChMIrIKJ7Jyh5AIVDT0MCh09JQGWEAAYASAAEgIZgfD_BwE
+https://iextrading.com/?gclid=EAIaIQobChMIrIKJ7Jyh5AIVDT0MCh09JQGWEAAYASAAEgIZgfD_BwE
+```
 <!doctype html>
 
 <!--
@@ -287,7 +290,8 @@ height="28"
 </svg>
 ```
 1. The 5 year history of Apple stock prices (IEX API)
-```// https://iextrading.com/apps/stocks/AAPL
+https://iextrading.com/apps/stocks/AAPL
+```
 <!doctype html>
 
 <!--
@@ -458,7 +462,8 @@ box-shadow: 0px 1px 10px 1px rgba(210,
 </section>
 ```
 1. All the Swift language repos on Github with Pursuit in their name
-```// https://github.com/joinpursuit
+https://github.com/joinpursuit
+```
 
 <!DOCTYPE html>
 <html lang="en">
@@ -520,7 +525,8 @@ box-shadow: 0px 1px 10px 1px rgba(210,
 <meta class="js-ga-set" name="dimension1" content="Logged Out">
 ```
 1. A list of all Pokemon
-``` // https://pokeapi.co
+https://pokeapi.co
+```
 
 <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.60137468abe8abceed3e.css"> /*! sanitize.css v7.0.3 | CC0 License | github.com/csstools/sanitize.css */*,
 :after,
