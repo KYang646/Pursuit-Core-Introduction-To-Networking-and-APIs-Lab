@@ -61,7 +61,9 @@ API Scavenger Hunt!
 For each of the questions below, identify a website and search query that will give you the appropriate JSON.  Paste the url and the json below.  Googling the category + API will generally take you to where you need.  Ex. https://lmgtfy.com/?q=cat+fact+api
 
 1. A random cat fact
-```{
+```// https://catfact.ninja
+
+{
 "total": 98,
 "per_page": "1",
 "current_page": 1,
@@ -82,7 +84,7 @@ For each of the questions below, identify a website and search query that will g
 }
 ```
 1. A list of 150 random users in English.
-``` https://randomuser.me
+```// https://randomuser.me
 
 <!DOCTYPE html><html lang="en"><head><title>Random User Generator | Home</title><meta charset='utf-8'><meta name="description" content="Random user generator is a FREE API for generating placeholder user information. Get profile photos, names, and more. It's like Lorem Ipsum, for people."><meta name="apple-mobile-web-app-capable" content="yes"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><link rel="stylesheet" type="text/css" href="dist/style.css"><script src="dist/all.js"></script></head><body class=""><div id="navbar" class=""><div class="nav_toggle"><div class="icon"><div></div><div></div><div></div></div></div><ul><li><a href="index">Home</a></li><li><a href="photos">User Photos</a></li><li><a href="documentation">Documentation</a></li><li><a href="changelog">Change Log</a></li><li><a href="stats">Stats &amp; Graphs</a></li><li><a href="donate">Donate</a></li><li><a href="copyright">Copyright Notice</a></li><li class="blank"></li><li><a href="photoshop">Photoshop Extension</a></li></ul></div><header><h1>Random User Generator</h1><p>A free, <a id="openSource" href="https://github.com/RandomAPI/Randomuser.me-Node">open-source</a> API for generating random user data. Like Lorem Ipsum, but for people. </p><a href="https://twitter.com/randomapi" class="twitter"><img src="img/twitter.png">Follow us @randomapi</a></header><div class="frame card_offset"><div class="card"><div class="details"><div class="user_photo horizontal_center" id="user_photo"><a href="javascript:getNewUser();" class="refresh">New</a><img src=""></div><p id="user_title">Hi, My name is</p><p id="user_value">...</p></div><ul class="values_list horizontal_center" id="values_list"><li data-title="Hi, My name is" data-value="..." data-label="name" class="active"></li><li data-title="My email address is" data-value="..." data-label="email" data-caps="false"></li><li data-title="My birthday is" data-value="..." data-label="birthday"></li><li data-title="My address is" data-value="..." data-label="location"></li><li data-title="My phone number is" data-value="..." data-label="phone"></li><li data-title="My password is" data-value="..." data-label="pass" data-caps="false"></li></ul></div><section class="sponsor"><h2>Sponsored</h2><h3>RandomAPI</h3><p>Want to create your own <b>customized</b> data generator for your application?<br>Check out our other service RandomAPI!</p><button id="learnmore" class="button" onClick="window.open('https://randomapi.com');">Learn More</button></section><section class="advertisement"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:inline-block;width:230px;height:200px" data-ad-client="ca-pub-2036801804961954" data-ad-slot="7646598623"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script><ins class="adsbygoogle" style="display:inline-block;width:230px;height:200px;margin:0 16px;" data-ad-client="ca-pub-2036801804961954" data-ad-slot="7646598623"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script><ins class="adsbygoogle" style="display:inline-block;width:230px;height:200px" data-ad-client="ca-pub-2036801804961954" data-ad-slot="7646598623"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></section><section><h2>How to use</h2><p>You can use AJAX to call the Random User Generator API and will receive a randomly generated user in return. If you are using jQuery, you can use the $.ajax() function in the code snippet below to get started.</p><pre>$.ajax({
 url: '<span>https: //randomuser.me/api/</span>',
@@ -166,7 +168,7 @@ console.log(<span>data</span>);
 })(window,document,'script',' //www.google-analytics.com/analytics.js','ga');ga('create', 'UA-42942064-1', 'randomuser.me');ga('send', 'pageview');</script></body></html>"
 ```
 1. The current stock price of Microsoft. (IEX API)
-``` https://iextrading.com/?gclid=EAIaIQobChMIrIKJ7Jyh5AIVDT0MCh09JQGWEAAYASAAEgIZgfD_BwE
+```// https://iextrading.com/?gclid=EAIaIQobChMIrIKJ7Jyh5AIVDT0MCh09JQGWEAAYASAAEgIZgfD_BwE
 <!doctype html>
 
 <!--
@@ -187,12 +189,6 @@ ___________________
 <html class="page--home
 
 " lang="en-US">
-
-
-
-
-
-
 
 <head>
 <meta charset="utf-8">
@@ -291,7 +287,7 @@ height="28"
 </svg>
 ```
 1. The 5 year history of Apple stock prices (IEX API)
-``` https://iextrading.com/apps/stocks/AAPL
+```// https://iextrading.com/apps/stocks/AAPL
 <!doctype html>
 
 <!--
@@ -462,7 +458,7 @@ box-shadow: 0px 1px 10px 1px rgba(210,
 </section>
 ```
 1. All the Swift language repos on Github with Pursuit in their name
-```https://github.com/joinpursuit
+```// https://github.com/joinpursuit
 
 <!DOCTYPE html>
 <html lang="en">
@@ -524,7 +520,111 @@ box-shadow: 0px 1px 10px 1px rgba(210,
 <meta class="js-ga-set" name="dimension1" content="Logged Out">
 ```
 1. A list of all Pokemon
+``` // https://pokeapi.co
+
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.60137468abe8abceed3e.css"> /*! sanitize.css v7.0.3 | CC0 License | github.com/csstools/sanitize.css */*,
+:after,
+:before{background-repeat:no-repeat;box-sizing:border-box
+}:after,
+:before{text-decoration:inherit;vertical-align:inherit
+}html{cursor:default;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Oxygen,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height: 1.15;-moz-tab-size: 4;-o-tab-size: 4;tab-size: 4;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break:break-word
+}h1{font-size:2em;margin:.67em 0
+}hr{height: 0;overflow:visible
+}main{display:block
+}nav ol,nav ul{list-style:none
+}pre{font-family:Menlo,Consolas,Roboto Mono,Ubuntu Monospace,Oxygen Mono,Liberation Mono,monospace;font-size:1em
+}a{background-color:transparent
+}abbr[title
+]{text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted
+}b,strong{font-weight:bolder
+}code,kbd,samp{font-family:Menlo,Consolas,Roboto Mono,Ubuntu Monospace,Oxygen Mono,Liberation Mono,monospace;font-size:1em
+}small{font-size: 80%
+}: :-moz-selection{background-color:#b3d4fc;color:#000;text-shadow:none
+}: :selection{background-color:#b3d4fc;color:#000;text-shadow:none
+}audio,canvas,iframe,img,svg,video{vertical-align:middle
+}audio,video{display:inline-block
+}audio:not([controls
+]){display:none;height: 0
+}img{border-style:none
+}svg{fill:currentColor
+}svg:not(:root){overflow:hidden
+}table{border-collapse:collapse
+}button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit
+}button,input,select{margin: 0
+}button{overflow:visible;text-transform:none
+}[type=button
+],
+[type=reset
+],
+[type=submit
+],button{-webkit-appearance:button
+}fieldset{padding:.35em .75em .625em
+}input{overflow:visible
+}legend{color:inherit;display:table;max-width: 100%;white-space:normal
+}progress{display:inline-block;vertical-align:baseline
+}select{text-transform:none
+}textarea{margin: 0;overflow:auto;resize:vertical
+}[type=checkbox
+],
+[type=radio
+]{padding: 0
+}[type=search
+]{-webkit-appearance:textfield;outline-offset: -2px
+}: :-webkit-inner-spin-button,
+: :-webkit-outer-spin-button{height:auto
+}: :-webkit-input-placeholder{color:inherit;opacity:.54
+}: :-webkit-search-decoration{-webkit-appearance:none
+}: :-webkit-file-upload-button{-webkit-appearance:button;font:inherit
+}: :-moz-focus-inner{border-style:none;padding: 0
+}:-moz-focusring{outline: 1px dotted ButtonText
+}details,dialog{display:block
+}dialog{background-color:#fff;border:solid;color:#000;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;left: 0;margin:auto;padding:1em;position:absolute;right: 0;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content
+}dialog:not([open
+]){display:none
+}summary{display:list-item
+}canvas{display:inline-block
+}template{display:none
+}[tabindex
+],a,area,button,input,label,select,summary,textarea{touch-action:manipulation
+}[hidden
+]{display:none
+}[aria-busy=true
+]{cursor:progress
+}[aria-controls
+]{cursor:pointer
+}[aria-disabled
+],
+[disabled
+]{cursor:not-allowed
+}[aria-hidden=false
+][hidden
+]:not(:focus){clip:rect(0,
+0,
+0,
+0);display:inherit;position:absolute
+}.HeaderLink-module--link--2kPir{height: 100%;display:flex;align-items:center;text-decoration:none;color:inherit;padding: 0 1em;min-width:-webkit-max-content;min-width:-moz-max-content;min-width:max-content
+}.HeaderLink-module--link--2kPir:visited{color:inherit
+}.HeaderLink-module--link--2kPir:hover{background:#e94141
+}.HeaderLink-module--link_active--14H5H{background:#c62828
+}.HeaderLink-module--link_active--14H5H:hover{background:#d32b2b
+}.LayoutHeader-module--header--1M4Mb{background-color:#ef5350;box-shadow: 0 2px 2px rgba(0,
+0,
+0,.2);position:-webkit-sticky;position:sticky;z-index: 100;top: 0;height: 3.125rem;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none
+}@media (max-width:35em){.LayoutHeader-module--header--1M4Mb{height:auto
+}
+}@media (max-height: 25rem){.LayoutHeader-module--header--1M4Mb{position:static
+}
+}.LayoutHeader-module--container--3VVal{height: 100%;max-width: 72rem;margin: 0 auto;display:flex;justify-content:space-between;align-items:stretch
+}.LayoutHeader-module--container--3VVal .LayoutHeader-module--homelink--2YeJ5{margin: 0;flex: 0 0;min-width:-webkit-max-content;min-width:-moz-max-content;min-width:max-content;font-size:1.5em;height: 100%;font-weight: 400
+}.LayoutHeader-module--container--3VVal .LayoutHeader-module--homelink--2YeJ5 .LayoutHeader-module--link--2evP_{height: 100%;display:flex;align-items:center;color:#f3f3f3;text-decoration:none
+}.LayoutHeader-module--container--3VVal .LayoutHeader-module--homelink--2YeJ5 .LayoutHeader-module--link--2evP_:visited{color:#f3f3f3
+}.LayoutHeader-module--container--3VVal .LayoutHeader-module--homelink--2YeJ5 .LayoutHeader-module--link--2evP_ img{height: 3.125rem;min-width:3em;padding: 2px
+}@media (max-width:35em){.LayoutHeader-module--container--3VVal .LayoutHeader-module--homelink--2YeJ5 .LayoutHeader-module--link--2evP_ .LayoutHeader-module--title---YrbU{position:absolute;opacity: 0;top: -9999px;left: -9999px
+}
+```
 1. A list of all items in Fortnite
+
+
 1. A list of all Game of Thrones Episodes.
 1. A list of all songs with "Love" in the title.
 1. All information about Petyr Baelish from the Game of Thrones books
